@@ -1,0 +1,81 @@
+@import "../../styles/contants.scss";
+
+.loop {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  @media (max-width: $sm), (max-width: $md) {
+    flex-direction: column;
+    display: inline-block;
+    margin-left: 130px;
+  }
+}
+
+.vidTxt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  @media (max-width: $sm) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 0rem;
+   margin-right: 91px;
+    font-size: 13px;
+  }
+}
+.viddTxt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  @media (max-width: $sm) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 0rem;
+   margin-right: 58px;
+    font-size: 13px;
+  }
+}
+.vidTxtt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 27px;
+  @media (max-width: $sm) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 0rem;
+   margin-right: 73px;
+    font-size: 29px;
+  }
+}
+.vid{
+  width: 30rem;
+  height: 30rem;
+ 
+  @media (max-width: $sm) {
+    width: 10rem;
+  height: 20rem;
+  margin-bottom: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+}
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: $sm), (max-width: $md) {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+}
